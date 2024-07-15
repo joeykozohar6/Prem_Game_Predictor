@@ -1,3 +1,7 @@
+#Web scraper which is uses Requests and Beautiful Soup to extract data from the past 2 Premier league seasons
+#Want the data of every Premier league game in order to train a ML model to predict games
+#Data will then be formatted into a df using pandas
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
